@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin:0px;
+			padding: 0px;
+		}
+		.section1{ /* navbar, título + botones*/
+			font-family: serif;
+			background-image: url(images/bg.jpeg);
+			background-size: cover;
+			width: 100%;
+			min-height: 450px;
+			
+		}
+		nav{
+			position: relative;
+			height: 50px;
+			padding: 5px 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		.nav_logo{
+			position: absolute;
+			max-height: 50px;
+			max-width: auto;
+		}
+		nav ul li{
+			float: right;
+			list-style: none;
+			color: white;
+			margin-left: 4px;
+			display: inline;
+		}
+		.centered_title{
+			position: absolute;
+			color: white;
+			font-size: 26px;
+			height: auto;
+			padding: 0px 30%;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		.bellow_title{
+			position: absolute;
+			color: white;
+			height: auto;
+			top: 200px;
+			margin: 0px 60px;
+			padding: 0px 35%;
+			text-align: center;
+		}
+		.button {
+			border-radius: 8px;
+			display: inline-block;
+			position: relative;
+			width: 80px;
+			height: 20px;
+			padding: 20px 10px;
+			margin: 25px 15px;
+			font-size: 15px;
+			color: white;
+			text-align: center;
+			float:left;
+		}
+		.section1_afterwords{
+			position: absolute;
+			top: 300px;
+			margin:20px 350px;
+			text-align: center;
+		}
+		.section2{
+			background-color: white;
+			width: 100%;
+			min-height: auto;
+			margin: 0px;
+			padding: 10px 0px;
+			color:#39383E;
+		}
+		.centered_text{
+			text-align: center;
+			margin: 20px 20%;
+			padding: 0px;
+		}
+		.section3{
+			background-color: white;
+			width: 100%;
+			height: auto;
+			
+		}
+		.section3_img{ /*happy people*/
+			position: relative;
+			max-height: 200px;
+			width: auto;
+			bottom: 0px;
+			margin-bottom: 0px; 
+			left:40%;
+		}
+		.section4{
+			background-color: #f3f3f4;  /* gris claro*/
+			width: 100%;
+			height: 320px;
+			padding: 0px;
+			padding-top: 10px; 
+			border-top: solid gray 2px;
+			border-bottom: solid gray 2px;
+		}
+		.section4_info{
+			text-align: center;
+			margin: 20px 20%;
+			padding: 0px;
+		}
+		.section5{
+			background-color: white;
+			height: 230px;
+			margin-top:40px;
+		}
+        .section5_righttext{
+            float: right;
+			text-align: center;
+			width: 280px;
+			margin-right: 25%;
+			padding-bottom: 2px;
+		}
+		.section5_lefttext{
+            float: left;
+		    text-align: center;
+		    width: 280px;
+		    margin-left: 25%;
+        }
+        .section5_send{
+        	padding: 5px;
+        }
+        .section5_send_button{
+        	position: relative;
+        	padding: 3px;
+        	width: 50px;
+        	height:23px;
+        	text-align: center;
+        	line-height: 25px;
+        }
+		footer{
+			clear:left;
+			background-color: black;
+			width: 100%;
+			height: 50px;
+			color:white;
+			text-align: left;
+			padding-top: 5px;
+			padding-left: 40px;
+		}
+		
+	</style>
+</head>
+<body>
+	<section class="section1">
+		<nav>
+		<img class="nav_logo" src="images/latam_logo.png">
+			<ul>
+				<li>Equipo</li>
+				<li>Blog</li>
+				<li>Contacto</li>		
+			</ul>
+		</nav>
+		<div class="centered_title">
+		<h1>COMIENZA UNA<br>NUEVA VIDA Y ÚNETE<br>AL MUNDO TECNOLÓGICO</h1>
+		</div>
+		<div class="bellow_title">
+		<p class="button"style="background-color: blue">Comienza acá</p>
+		<p class="button"style="background-color: green">Más info</p>
+		</div>
+		<div class="section1_afterwords">
+		<h4 style="color: white;clear: left;">Hay una escasez de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y tú puedes ser uno!</h4>
+		</div>
+	</section>
+	
+	<section class="section2">
+		<div class="centered_text"><h3>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h3>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo fringilla, cursus quam a, tincidunt lectus. Vestibulum malesuada urna quis nulla accumsan pulvinar. Etiam tincidunt est feugiat accumsan facilisis. Morbi egestas maximus porttitor. Ut quis porta nisl.</h4>
+        </div>
+		
+	</section>
+
+	<section class="section3">
+		<img class="section3_img" src="images/images_cv/happypeople.png">
+	</section>
+
+	<section class="section4">
+		<div class="section4_info">
+			<h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+			<br>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo fringilla, cursus quam a, tincidunt lectus. Vestibulum malesuada urna quis nulla accumsan pulvinar. Etiam tincidunt est feugiat accumsan facilisis. Morbi egestas maximus porttitor. Ut quis porta nisl. Vivamus </h4>
+            <br>
+            <p class="button" style="background-color: blue;left: 40%">Inscríbete!</p>
+            <h4 style="clear: left">Vive la experiencia Desafío Latam</h4>
+        </div>
+		
+	</section>
+	<section class="section5">
+		<div class="section5_righttext">
+          <h3>Contacto</h3>
+          <h4><strong>Desafío Latam</strong></h4>
+          <h4>Ezequías Allende 2361</h4>
+          <h4>P +56 9 5117 7975</h4>
+          <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
+        </div>
+
+        <div class="section5_lefttext">
+	      <p><h3>Suscríbete</h3></p>
+	      <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></p>
+	      <input class="section5_send" type="text" placeholder="Ingresa tu mail"><span class="section5_send_button" style="background-color:#f3f3f4; float: left">Enviar</span>
+	    </div>
+		
+	</section>
+	<footer>
+		  <h3>DESAFÍO LATAM - CURSO FULL STACK G16</h3>
+	</footer>
+</body>
+</html>
